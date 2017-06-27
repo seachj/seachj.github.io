@@ -31,296 +31,598 @@
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <![endif]-->
 
-</head>
+    </head>
 
-<body id="page-top">
+    <body id="page-top">
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Scroll to top</a>
-                <!--"scroll to top"... hide it? *make it white until scroll*, OR hide element with js??? remove this navbar in general?????-->
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top">Scroll to top</a>
+                    <!--"scroll to top"... hide it? *make it white until scroll*, OR hide element with js??? remove this navbar in general?????-->
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a class="page-scroll" href="#about-me">About</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#services">Services</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#portfolio-section">Portfolio</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#contact">Contact</a> <!--assign anchors to all sections-->
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
             </div>
+            <!-- /.container-fluid -->
+        </nav>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a> <!--assign anchors to all sections-->
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1 id="homeHeading">Josie Seach</h1>
-                <hr class="light"> <!--remove and replace with <br>or a blank paragraph?-->
-                <p>Developer, Editor, Writer</p> <!--<br><span font-size="6px">Language learner, Artist/designer</span>   span doesn't work, make css for a new id within this class-->
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a> <!--small box, slightly transparent or not, containing all this text, from header to button-->
-            </div>
-        </div>
-    </header>
-
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">I'm ready to help with your project.</h2><!--some other tagline?-->
-                    <p class="text-faded">Lorem ipsum blah blah blah</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+        <header>
+            <div class="header-content">
+                <div class="header-content-inner">
+                    <h1 id="homeHeading">Josie Seach</h1>
+                    <hr class="light"> <!--remove and replace with <br>or a blank paragraph?-->
+                    <p>Developer, Editor, Writer</p> <!--<br><span font-size="6px">Language learner, Artist/designer</span>   span doesn't work, make css for a new id within this class-->
+                    <a href="#about-me" class="btn btn-primary btn-xl page-scroll">Find Out More</a> <!--small box, slightly transparent or not, containing all this text, from header to button-->
                 </div>
             </div>
-        </div>
-    </section>
+        </header>
 
-
-
-
-
-    <section id="about-me">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About Me</h2>
-                    <hr class="light">
-                <img src=""> <!--photo of me-->
-                <p>Short description of myself</p>
-                <!--columns?... personality stuff, like DISC profile-->
-                <!--columns... how i work (personality, instead of above), interests, goals-->
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="education">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3 class="section-heading">Education and Experiences</h3> <!--replace with view resume button? have both?-->
-                    <hr class="light">
-                <p>lorem ipsum</p>
-                <!--how to arrange education/experiences? in a grid?-->
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <hr>
-
-
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">My Services</h2>
-                    <hr class="light">
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-i-cursor text-primary sr-icons"></i>
-                        <h3>Content Writing</h3>
-                        <p class="text-muted">Lorem ipsum</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-pencil-square-o text-primary sr-icons"></i>
-                        <h3>Copyediting</h3>
-                        <p class="text-muted">Lorem ipsum</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-code text-primary sr-icons"></i>
-                        <h3>Web Development &amp; Design</h3>
-                        <p class="text-muted">Lorem ipsum</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-tasks text-primary sr-icons"></i>
-                        <h3>french translation??? *research?</h3>
-                        <p class="text-muted">Lorem ipsum</p>
+        <section class="bg-primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <h2 class="section-heading">I'm ready to help with your project.</h2><!--move to under/in about me, link to contact-->
+                        <p class="text-faded">Lorem ipsum blah blah blah</p>
+                        <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a> <!--or keep where it is and keep it linking to services? remove this section entirely?-->
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        
 
-
-    <aside class="bg-dark">
-    <div class="container text-center"><h1>Portfolio</h1></div></aside>
-
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box"> <!--link to new page instead? make portfoliobox have a caption? in the caption include description, details, links to sites/codepens-->
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    CSS Creature
-                                </div>
-                                <div class="project-name">
-                                    Weedle
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Webpage Storefront
-                                </div>
-                                <div class="project-name">
-                                    Hoppuccino Rabbit Cafe
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    ICI
-                                </div>
-                                <div class="project-name">
-                                    JavaScript Library
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    ICI
-                                </div>
-                                <div class="project-name">
-                                    Friends List
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    ici?
-                                </div>
-                                <div class="project-name">
-                                    tip calculator? remove conversion and refine other features
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    research
-                                </div>
-                                <div class="project-name">
-                                    library wordpress project? paper <!--use library project, note that i did it before entering the program and thus had to use wordpress; i would like to translate this to 100% my own code instead of using wordpress-->
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    editing
-                                </div>
-                                <div class="project-name">
-                                    poetry chapbook
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    french? arts for learning? other editing or research project? something programmed in csci class?
-                                </div>
-                                <div class="project-name">
-                                    french? arts for learning? other editing or research project? something programmed in csci class?
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    french? arts for learning? other editing or research project? something programmed in csci class?
-                                </div>
-                                <div class="project-name">
-                                    french? arts for learning? other editing or research project? something programmed in csci class?
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+        <section id="about-me"> <!--put in bg primary? take "i'm ready to help" out of bg primary?-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">About Me</h2>
+                        <hr class="light">
+                        <img src="img/profile.jpg" style="border-radius: 50%"> <!--photo of me-->
+                        <hr class="light">
+                        <p>Short description of myself</p>
+                        <!--columns?... personality stuff, like DISC profile-->
+                        <!--columns... how i work (personality, instead of above), interests, goals-->
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <aside class="bg-dark">
-        <div class="container text-center">
+        <section id="education">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h3 class="section-heading">Education and Experiences</h3> <!--replace with view resume button? have both?-->
+                        <hr class="light">
+                        <p>lorem ipsum</p>
+                        <!--how to arrange education/experiences? in a grid?-->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <hr>
+
+
+        <section id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">My Services</h2>
+                        <hr class="light">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa-i-cursor text-primary sr-icons"></i>
+                            <h3>Content Writing</h3>
+                            <p class="text-muted">Lorem ipsum</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa-pencil-square-o text-primary sr-icons"></i>
+                            <h3>Copyediting</h3>
+                            <p class="text-muted">Lorem ipsum</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa-code text-primary sr-icons"></i>
+                            <h3>Web Development &amp; Design</h3>
+                            <p class="text-muted">Lorem ipsum</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa-tasks text-primary sr-icons"></i>
+                            <h3>french translation??? *research?</h3>
+                            <p class="text-muted">Lorem ipsum</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+
+        <aside class="bg-dark" id="portfolio-section">
+            <div class="container text-center"><h1>Portfolio</h1></div> <!--end aside here for separator, to make it like a big hr top and bottom-->
+
+            <!--portfolio-->
+            <section id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 portfolio-item">
+                            <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="img\portfolio\thumbnails\1.jpg" class="img-responsive" alt="CSS Creature">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 portfolio-item">
+                            <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="img\portfolio\thumbnails\2.jpg" class="img-responsive" alt="Hoppuccino Rabbit Cafe">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 portfolio-item">
+                            <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="img\portfolio\thumbnails\3.jpg" class="img-responsive" alt="Tip Calculator">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 portfolio-item">
+                            <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="img\portfolio\thumbnails\4.jpg" class="img-responsive" alt="Chat App">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 portfolio-item">
+                            <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="img\portfolio\thumbnails\5.jpg" class="img-responsive" alt="JavaScript Library">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 portfolio-item">
+                            <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="img\portfolio\thumbnails\6.jpg" class="img-responsive" alt="ALATT Research Project">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 portfolio-item">
+                            <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="img\portfolio\thumbnails\7.jpg" class="img-responsive" alt="Etchings Poetry Chapbook">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 portfolio-item">
+                            <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="img\portfolio\thumbnails\8.jpg" class="img-responsive" alt="Conference Research Paper">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 portfolio-item">
+                            <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="img\portfolio\thumbnails\9.jpg" class="img-responsive" alt="Great Depression Media Researchf">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </aside>
+
+            <!-- Portfolio Modals -->
+            <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h2>CSS Creature: Weedle</h2>
+                                    <hr class="light">
+                                    <img src="img/portfolio/fullsize/1.jpg" class="img-responsive img-centered" alt="">
+                                    <p>blah</p>
+                                    <a href="https://codepen.io/seachj/pen/pwJexN" target=_blank>link</a>
+                                    <ul class="list-inline item-details">
+                                        <li>Client:
+                                            <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                            </strong>
+                                        </li>
+                                        <li>Date:
+                                            <strong><a href="http://startbootstrap.com">April 2014</a>
+                                            </strong>
+                                        </li>
+                                        <li>Service:
+                                            <strong><a href="http://startbootstrap.com">Web Development</a>
+                                            </strong>
+                                        </li>
+                                    </ul>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h2>Hoppuccino Rabbit Cafe</h2>
+                                    <hr class="light">
+                                    <img src="img\portfolio\fullsize\2.jpg" class="img-responsive img-centered" alt="">
+                                    <p>blah</p>
+                                    <a href="/hoppuccino/index.html" target=_blank>link</a>
+                                    <ul class="list-inline item-details">
+                                        <li>Client:
+                                            <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                            </strong>
+                                        </li>
+                                        <li>Date:
+                                            <strong><a href="http://startbootstrap.com">April 2014</a>
+                                            </strong>
+                                        </li>
+                                        <li>Service:
+                                            <strong><a href="http://startbootstrap.com">Web Development</a>
+                                            </strong>
+                                        </li>
+                                    </ul>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h2>Chat App</h2>
+                                    <hr class="light">
+                                    <img src="img\portfolio\fullsize\3.jpg" class="img-responsive img-centered" alt="">
+                                    <p>blah</p>
+                                    <a href="http://intense-cove-34866.herokuapp.com/" target=_blank>link</a>
+                                    <ul class="list-inline item-details">
+                                        <li>Client:
+                                            <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                            </strong>
+                                        </li>
+                                        <li>Date:
+                                            <strong><a href="http://startbootstrap.com">April 2014</a>
+                                            </strong>
+                                        </li>
+                                        <li>Service:
+                                            <strong><a href="http://startbootstrap.com">Web Development</a>
+                                            </strong>
+                                        </li>
+                                    </ul>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h2>JavaScript Library</h2>
+                                    <hr class="light">
+                                    <img src="img\portfolio\fullsize\4.jpg" class="img-responsive img-centered" alt="">
+                                    <p>blah</p>
+                                    <a href="https://github.com/seachj/JavaScriptLibrary" target="_blank">link</a>
+                                    <ul class="list-inline item-details">
+                                        <li>Client:
+                                            <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                            </strong>
+                                        </li>
+                                        <li>Date:
+                                            <strong><a href="http://startbootstrap.com">April 2014</a>
+                                            </strong>
+                                        </li>
+                                        <li>Service:
+                                            <strong><a href="http://startbootstrap.com">Web Development</a>
+                                            </strong>
+                                        </li>
+                                    </ul>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h2>C++ Priority Queue</h2>
+                                    <hr class="light">
+                                    <img src="img\portfolio\fullsize\5.jpg" class="img-responsive img-centered" alt="">
+                                    <p>blah</p>
+                                    <a href="mailto:jmseach@gmail.com">Email me to request files.</a>
+                                    <ul class="list-inline item-details">
+                                        <li>Client:
+                                            <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                            </strong>
+                                        </li>
+                                        <li>Date:
+                                            <strong><a href="http://startbootstrap.com">April 2014</a>
+                                            </strong>
+                                        </li>
+                                        <li>Service:
+                                            <strong><a href="http://startbootstrap.com">Web Development</a>
+                                            </strong>
+                                        </li>
+                                    </ul>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h2>Java Employee Info Array</h2>
+                                    <hr class="light">
+                                    <img src="img\portfolio\fullsize\6.jpg" class="img-responsive img-centered" alt="">
+                                    <p>blah</p>
+                                    <a href="mailto:jmseach@gmail.com">Email me to request files.</a>
+                                    <ul class="list-inline item-details">
+                                        <li>Client:
+                                            <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                            </strong>
+                                        </li>
+                                        <li>Date:
+                                            <strong><a href="http://startbootstrap.com">April 2014</a>
+                                            </strong>
+                                        </li>
+                                        <li>Service:
+                                            <strong><a href="http://startbootstrap.com">Web Development</a>
+                                            </strong>
+                                        </li>
+                                    </ul>
+                                    <button id="btnSubmit" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h2>ALA Think Tank Report</h2>
+                                    <hr class="light">
+                                    <img src="img\portfolio\fullsize\7.jpg" class="img-responsive img-centered" alt="">
+                                    <p>note that i'd like to rebuild</p>
+                                    <a href="https://alathinktankreport.wordpress.com/" target="_blank">link</a>
+                                    <ul class="list-inline item-details">
+                                        <li>Client:
+                                            <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                            </strong>
+                                        </li>
+                                        <li>Date:
+                                            <strong><a href="http://startbootstrap.com">April 2014</a>
+                                            </strong>
+                                        </li>
+                                        <li>Service:
+                                            <strong><a href="http://startbootstrap.com">Web Development</a>
+                                            </strong>
+                                        </li>
+                                    </ul>
+                                    <button id="btnSubmit" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h2>Research Paper:<br>"Erin Belieu's 'In the Red Dress I Wear to Your Funeral': Conveying Emotion by Manipulating Form"</h2>
+                                    <hr class="light">
+                                    <img src="img\portfolio\fullsize\8.jpg" class="img-responsive img-centered" alt="">
+                                    <p>blah</p>
+                                    <a href="#" target="_blank">Conference Proceedings</a>
+                                    <a href="#" target="_blank">Paper</a>
+                                    <ul class="list-inline item-details">
+                                        <li>Client:
+                                            <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                            </strong>
+                                        </li>
+                                        <li>Date:
+                                            <strong><a href="http://startbootstrap.com">April 2014</a>
+                                            </strong>
+                                        </li>
+                                        <li>Service:
+                                            <strong><a href="http://startbootstrap.com">Web Development</a>
+                                            </strong>
+                                        </li>
+                                    </ul>
+                                    <button id="btnSubmit" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h2>Etchings Press Poetry Chapbook: <i>Uncle Harold's Maxwell House Haggadah</i></h2>
+                                    <hr class="light">
+                                    <img src="img\portfolio\fullsize\9.jpg" class="img-responsive img-centered" alt="">
+                                    <p>blah</p>
+                                    <a href="#" target="_blank">Link</a>
+                                    <ul class="list-inline item-details">
+                                        <li>Client:
+                                            <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                            </strong>
+                                        </li>
+                                        <li>Date:
+                                            <strong><a href="http://startbootstrap.com">April 2014</a>
+                                            </strong>
+                                        </li>
+                                        <li>Service:
+                                            <strong><a href="http://startbootstrap.com">Web Development</a>
+                                            </strong>
+                                        </li>
+                                    </ul>
+                                    <button id="btnSubmit" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <aside class="bg-dark">
+                <div class="container text-center">
             <!-- <div class="call-to-action">
                 <h2>Free Download at Start Bootstrap!</h2>
                 <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a> <!remove call to action section? can't figure out what to do with it>
@@ -340,27 +642,27 @@
 <i class="fa fa-phone fa-3x sr-contact"></i>
 <p>317-701-6988</p>
 </div> -->
-                <div class="col-sm-12 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:jmseach@gmail.com">jmseach@gmail.com</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
+<div class="col-sm-12 text-center">
+    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+    <p><a href="mailto:jmseach@gmail.com">jmseach@gmail.com</a></p>
+</div>
+</div>
+</div>
+</section>
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+<!-- jQuery -->
+<script src="vendor/jquery/jquery.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-    <!-- Theme JavaScript -->
-    <script src="js/creative.js"></script>
+<!-- Theme JavaScript -->
+<script src="js/creative.js"></script>
 
 </body>
 
