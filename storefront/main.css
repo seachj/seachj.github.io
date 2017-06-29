@@ -16,7 +16,6 @@
 
 	p{
 		color:#49361d;
-		opacity: 1;
 	}
 
 	.header{
@@ -104,8 +103,7 @@
 		padding-bottom: 5px;
 		padding-left: 20px;
 		padding-right: 20px;
-		background-color: #fff;
-		opacity:0.7;
+		background: rgba(255, 255, 255, .7);
 		position: relative;
 		left:0.85%;
 		float: bottom;
