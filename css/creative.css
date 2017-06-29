@@ -12,10 +12,10 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: lightgrey;
+  border-color: #D3D3D3;
   border-width: 2px;
-  max-width: 200px;
-  border-style: solid;
+  max-width: 300px;
+  border-style: dashed;
 }
 hr.light {
   border-color: white;
