@@ -161,6 +161,10 @@ header {
   -o-background-size: cover;
   background-position: center;
   background-image: url('../img/headerv3.jpg');
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   text-align: center;
   color: white;
   background-color: white;
