@@ -207,9 +207,13 @@ header .header-content .header-content-inner p {
     padding: 0 50px;
   }
   header .header-content .header-content-inner {
-    max-width: 1000px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+    background: rgba(54, 25, 25, .5);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-shadow: 4px -4px 4px -4px rgba(34,34,34,0.6);
   }
   header .header-content .header-content-inner h1 {
     font-size: 50px;
