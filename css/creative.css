@@ -207,7 +207,7 @@ header .header-content .header-content-inner p {
     padding: 0 50px;
   }
   header .header-content .header-content-inner {
-    max-width: 900px;
+    max-width: 480px;
     margin-left: auto;
     margin-right: auto;
     background: rgba(54, 25, 25, .5);
