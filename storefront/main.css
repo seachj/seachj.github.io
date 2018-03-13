@@ -67,22 +67,16 @@
 
 	#food-button .btn-default{
 		width: 225px;
-		border-top: 2px solid transparent;
-		border-radius top: 0;
 		position: relative;
 		top: -5px;
 	}
 	#drink-button .btn-default{
 		width: 225px;
-		border-top: 2px solid transparent;
-		border-radius top: 0;
 		position: relative;
 		top: -5px;
 	}
 	#rabbit-button .btn-default{
 		width: 225px;
-		border-top: 2px solid transparent;
-		border-radius top: 0;
 		position: relative;
 		top: -5px;
 	}
