@@ -230,6 +230,12 @@ header .header-content .header-content-inner p {
   }
 }
 
+@media (max-width: 768px) {
+  #about-text {
+    text-align: justify !important;
+  }
+}
+
 
 /*@media only screen and (max-width: 768px) {
   header {
